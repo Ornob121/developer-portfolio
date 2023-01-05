@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0;
 }
+
 * {
     font-family: 'Open Sans', sans-serif;
 
@@ -47,102 +48,114 @@ nav ul {
 .btn:hover {
     background-color: green;
 }
-.banner{
+
+.banner {
     /* margin: 0 100px; */
     /* margin-left: 100px; */
     display: flex;
     align-items: center;
 }
-#img{
+
+#img {
     margin: 0;
     margin-right: 50px;
     position: bottom right;
     padding-left: 100px;
 }
-#ii{
+
+#ii {
     margin-left: 100px;
 }
-.banner-subtitle{
+
+.banner-subtitle {
     font-weight: 600;
     font-size: 45px;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 600;
     font-size: 84px;
     margin-bottom: 20px;
 }
-.banner-about{
+
+.banner-about {
     font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-color: #757575;
-margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
 }
-.btc{
+
+.btc {
     background-color: #FD6E0A;
     border: 0ch;
     border-radius: 5px;
     padding: 10px 15px;
 }
-.btc:hover{
+
+.btc:hover {
     color: wheat;
     background-color: green;
 }
-.btm{
+
+.btm {
     background-color: whitesmoke;
     border: 2px solid lightslategrey;
     padding: 8px 30px;
     margin-left: 20px;
 }
-.btm:hover{
+
+.btm:hover {
     color: aqua;
     background: #FFFFFF;
 }
+
 /* header background */
-.header{
+.header {
     background: #FFF8F3;
     background-size: cover;
     background-image: url(../developer.png), url(../header_bg.png);
-    background-position: bottom left,right;
+    background-position: bottom left, right;
     background-repeat: no-repeat;
-    background-size: contain,contain;
+    background-size: contain, contain;
 }
 
 /* main section  */
-main{
-    max-width:  1140px; 
+main {
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 /* About section style  */
-.about{
+.about {
     margin-top: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     padding: 130px 150px;
 }
 
-.section-title{
-        text-align: center;
-        margin-bottom: 30px;
-        font-size: 35px;
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
 }
 
-.section-description{
-        text-align: center;
-        color: #757575;
-        font-size: 18px;
-        margin-bottom: 30px;
+.section-description {
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
 /* about info style */
 
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
 
     font-weight: 400px;
     font-size: 20px;
@@ -151,10 +164,46 @@ main{
 
 }
 
-.info-description{
-    color:black;
+.info-description {
+    color: black;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
+
+}
+
+/* what i do styles */
+
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 120px;
+    margin-top: 80px;
+}
+
+
+.skils-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skil {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
     
+}
+
+.skill-title {
+    font-weight: bolder;
+    font: bolder;
+    font-size: 20px;
+    margin-top:30px ;
+    margin-bottom:20px;
+}
+
+.skil-description {
+    color: #757575;
 }
